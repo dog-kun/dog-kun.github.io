@@ -1,0 +1,131 @@
+body{
+    margin: 10px;
+}
+
+#bc{  
+    min-width: 100%;  
+    min-height: 100%;  
+    height: auto;  
+    width: auto;  
+    position: fixed;  
+    right: 0px;  
+    bottom: 0px;  
+    min-width: 100%;  
+    min-height: 100%;  
+    height: auto;  
+    width: auto;  
+    /*加滤镜*/
+    /*filter: blur(15px); //背景模糊设置 */
+    /*-webkit-filter: grayscale(100%);*/  
+    /*filter:grayscale(100%); //背景灰度设置*/  
+    z-index:-11
+}  
+
+#time{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    color: white;
+    font-size: 70px;
+    font-family: 微软雅黑;
+    
+}
+
+#hitokoto_text{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#hitokoto_text:hover{
+    color: #e49764;
+    transition: 0.3s;
+}
+
+#hitokoto{
+    display: flex;
+    justify-content: center;
+    margin: 60vh 0 0 0;
+}
+
+#app{
+    margin: 50px 0 0 30px;
+    white-space:nowrap;
+}
+
+#time_box{
+    border-radius: 20px;
+    height: 150px;
+}
+
+
+#times{
+    color: #FFF;
+    text-align: center;
+    margin: 5px;
+    
+}
+
+#xq {color: #FFF;
+    text-align: center;
+    margin: 5px;
+    
+}
+
+#zuozhe{
+    margin: 5px 0 0 0;
+    border-radius: 20px;
+    background-color:#00000080;;
+    height: 120px;
+    width: 400px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#toux{
+    border-radius: 100%;
+    margin: 15px;
+}
+
+#toux:hover{
+    transform: rotate(360deg);
+    transition: 0.3s;
+}
+
+#name{
+    color: #fff;
+    font-size: 50px;
+    margin: 25px 0 0 0;
+}
+
+#game_box{
+    padding: 8px;
+    margin: 5px 0 0 5px;
+    border-radius: 20px;
+    background-color:#00000080;;
+    height: 120px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#game_link{
+    display: flex;
+}
+
+#otime{
+    display: flex;
+}
+
+.game_iso{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#game_texe{
+    margin: 5px;
+    color: #fff;
+    font-size: 20px;
+}
